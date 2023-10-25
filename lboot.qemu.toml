@@ -1,0 +1,9 @@
+[[entry]]
+name = 'Linux 6.5.5 aarch64'
+vmlinux = '\efi\boot\Image-aarch64'
+param = 'initrd=\efi\boot\initrd-aarch64.img root=/dev/vda1 acpi=on'
+
+[[entry]]
+name = 'Linux 6.5.5 x86_64'
+vmlinux = '\efi\boot\bzImage-x86_64'
+param = 'initrd=\efi\boot\initrd-x86_64.img root=/dev/sda1'

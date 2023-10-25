@@ -1,0 +1,5 @@
+[[entry]]
+name = "Arch Linux"
+vmlinux = '\vmlinuz-linux'
+param = 'initrd=\initramfs-linux.img root=UUID=48b884eb-2b80-4069-9972-6929c61430dd rw  loglevel=3 quiet'
+
